@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/selected" android:oneshot="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <item android:drawable="@drawable/vidya" android:duration="5000" />
+    <item android:drawable="@drawable/imagesn" android:duration="5000" />
+    <item android:drawable="@drawable/imagesm" android:duration="5000" />
+    <item android:drawable="@drawable/abc" android:duration="5000" />
+
+</animation-list>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbc6ca"
+    android:orientation="vertical"
+    android:layout_gravity="fill_vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vidya Knowledge Park, Meerut"
+        android:textSize="32dp"
+        android:textColor="#000"
+        android:id="@+id/tv1"
+        android:layout_margin="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="20dp"
+            android:layout_marginBottom="130dp"
+            android:textStyle="bold"
+            android:layout_below="@id/tv1"
+            android:textColor="#000"
+            android:id="@+id/tv2"
+            android:layout_margin="8dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Map"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_marginBottom="110dp"
+            android:layout_toRightOf="@id/tv2"
+            android:layout_alignBaseline="@id/tv2"
+            android:id="@+id/tv3"
+            android:layout_margin="8dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="8dp"
+        android:text="See Map"
+        android:id="@+id/mapBtn"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email us:"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tv2"
+            android:textColor="#000"
+            android:id="@+id/tv4"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:id="@+id/tv5"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="end"
+        android:text="Mail now"
+        android:id="@+id/mailBtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us:"
+        android:layout_marginBottom="20sp"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/tv4"
+        android:textColor="#000"
+        android:id="@+id/tv6"
+        android:layout_margin="8dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 121 2439188"
+            android:textSize="18dp"
+            android:layout_marginTop="7dp"
+            android:textColor="#000"
+            android:layout_marginBottom="6dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/tv8"
+            android:layout_marginLeft="80dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Call now"
+            android:id="@+id/callBtn1"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 121 2439189"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_below="@id/tv8"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="15dp"
+
+            android:id="@+id/tv9"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Call now"
+            android:id="@+id/callBtn2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 121 2439192"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tv9"
+            android:layout_marginBottom="6dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/tv10"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call now"
+            android:textColor="#fff"
+            android:layout_margin="8dp"
+            android:id="@+id/callBtn3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 9411 222 666"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_below="@id/tv10"
+            android:layout_marginLeft="76dp"
+            android:layout_marginBottom="6dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/tv11"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Call now"
+            android:textColor="#fff"
+            android:id="@+id/callBtn4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 8650 000 775"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_below="@id/tv11"
+            android:layout_marginLeft="76dp"
+            android:layout_marginBottom="6dp"
+            android:paddingBottom="40dp"
+            android:id="@+id/tv12"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Call now"
+            android:textColor="#fff"
+            android:id="@+id/callBtn5"/>
+
+    </LinearLayout>
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="For further details, log on to:"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:layout_marginLeft="10dp"
+      android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://vidya.edu.in/"
+            android:textSize="18dp"
+            android:paddingLeft="45dp"
+            android:id="@+id/tv15"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="55dp"
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Click here"
+        android:id="@+id/siteBtn"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee structure"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="20dp"
+            android:text="Fee details"
+            android:id="@+id/fees"/>
+</LinearLayout>
+</LinearLayout>
+
+
+</ScrollView>

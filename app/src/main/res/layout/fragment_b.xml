@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="fill">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2ceee"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@+id/parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration form"
+        android:textSize="25dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/TextA"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/TextA"
+            android:id="@+id/Text2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="48dp"
+            android:layout_gravity="bottom"
+            android:hint="Full name"
+            android:textSize="18dp"
+            android:textColorHint="#000"
+            android:id="@+id/editText"
+            android:textColor="#000"
+            android:visibility="visible"
+            android:cursorVisible="true"
+            android:layout_toRightOf="@id/Text2"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Phone no."
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/TextA"
+            android:id="@+id/Text4"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:hint="Enter 10 digit no."
+            android:id="@+id/editText3"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textColorHint="#000"
+            android:visibility="visible"
+            android:cursorVisible="true"
+            android:layout_toRightOf="@id/Text2"
+
+            />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Email id"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/TextA"
+        android:id="@+id/Text5"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText4"
+        android:textSize="18dp"
+        android:hint="Your mail id"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginLeft="29dp"
+        android:layout_gravity="bottom"
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Address"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Text6"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:id="@+id/editText6"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textColorHint="#000"
+            android:layout_gravity="bottom"
+            android:hint="Permanent address"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="10%"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/TextA"
+            android:id="@+id/Text7"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:textSize="18dp"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="58dp"
+            android:layout_gravity="bottom"
+            android:hint="Upto 2 decimal places"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            />
+</LinearLayout>
+
+
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="30dp"
+           android:text="12%"
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_below="@id/TextA"
+           android:id="@+id/Text8"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="18dp"
+           android:id="@+id/editText8"
+           android:layout_gravity="bottom"
+           android:layout_marginLeft="57dp"
+           android:textColor="#000"
+           android:textColorHint="#000"
+           android:inputType="numberDecimal"
+           android:hint="Upto 2 decimal places"
+           android:cursorVisible="true"
+           android:visibility="visible"
+           />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Course"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/TextA"
+        android:id="@+id/Text9"/>
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinner"
+        android:prompt="@string/spinner_title"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="36dp"
+         />
+</LinearLayout>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="110dp"/>
+
+</LinearLayout>
+</ScrollView>

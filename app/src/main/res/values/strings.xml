@@ -1,0 +1,162 @@
+<resources>
+    <string name="vkp">Vidya app</string>
+
+    <string name="app">
+<![CDATA[
+       <p> Vidya Knowledge Park, a group of Jain Minority institutions situated at Meerut symbolizes a very well conceived dream of tranforming education the belt of Western UP and Delhi-NCR.</p>
+        <p> It is spread across lush green landscape of 75 acres, state of the architecture, harboring more than 3000 students, 500 plus professional teaching and non-teaching staff and best in technology and ambiance.</p>
+
+
+       <h3>Awards and achievements</h3>
+       <b>"Excellence And Innovation in Engineering" in Indian Education Award 2015-</b>
+       <p>Vidya College of Engineering is conferred with Excellence And Innovation in Engineering in Indian Education Award 2015 by FRANCHISE, INDIA.</p>
+       <b>MOST EMERGING HIGHER EDUCATION INSTITUTE OF THE YEAR 2014</b>
+       <b>EDUPRENEURS AWARD 2013</b>
+       <p>Vidya College of Engineering received award from Engineering Watch, Edupreneurs Award, 2013.</p>
+       <b>A Ranking</b>
+        <p>Vidya School of Business
+         B & M Chronicle 2013</p>
+         <b>SOE GLOBAL AWARDS 2012</b>
+         <p>Vidya College of Engineering received Academic Excellence Award from School of Educators, Global Education Awards, 2012.</p>
+         <b>A+
+
+Business School (MBA by Choice July 2012)</b>
+
+<p>Vidya School of Business</p>
+<b>Included in Dalal Street Best B School Directory 2012</b>
+<p>Vidya School of Business</p>
+<b>
+
+A+ Ranking
+
+Vidya School of Business</b>
+<p>B & M Chronicle 2012</p>
+<b>A+  Go Getter Go Air Best B School Survey June 2012</b>
+<p>Vidya School of Business</p>
+
+<b>GBTU VIBGYOR 2011</b>
+<p>Vidya College of Engineering ranked among the top ten colleges of
+Gautam Buddh Technical University (GBTU)</p>
+<b>AA & 4th in Academic Category
+Vidya School of Business</b>
+<p>B & M Chronicle 2011</p>
+
+
+
+
+
+
+]]>
+
+        </string>
+    <string name="action_settings">Settings</string>
+    <string-array name="headerTitles">
+        <item>Vidya College of Engineering (VCE)</item>
+        <item>Vidya Institute of Fashion Technology (VIFT)</item>
+        <item>Vidya Institute of Creative Teaching (VICT)</item>
+        <item>Vidya Global School (VGS)</item>
+        <item>Vidya International School of Business (VISB)</item>
+        <item>Vidya School of Business (VSB)</item>
+        <item>Vidya International Sports Academy (VISA)
+</item>
+        <item>Accommodation</item>
+    </string-array>
+        <string-array name="h1_items">
+            <item>Diploma- Computer Science and Engineering (CSE)</item>
+        <item>Diploma- Mechanical Engineering (ME)</item>
+        <item>B.Tech- Computer Science and Engineering (CSE)</item>
+        <item>B.Tech- Information Technology (IT)</item>
+        <item>B.Tech- Electronics and Communication Engineering (ECE)</item>
+        <item>B.Tech- Electronics and Instrumentation (EI)</item>
+        <item>B.Tech- Electrical and Electronics Engineering (EEE)</item>
+        <item>B.Tech- Mechanical Engineering (ME)</item>
+        <item>B.Tech- Civil Engineering (CE)</item>
+        <item>M.Tech- Computer Science and Engineering (CSE)</item>
+        <item>M.Tech- Mechanical Engineering (ME)</item>
+        <item>M.Tech- Electrical and Electronics Engineering (EEE)</item>
+        <item>MBA- Masters of Business Administration</item>
+        <item>MCA- Masters of Computer Application</item>
+        </string-array>
+        <string-array name="h2_items">
+            <item>Arts- Bachelor of Fine Arts (BFA)</item>
+        <item>Arts- Diploma in Arts</item>
+        <item>Design- Bachelor of Design (B.Des)</item>
+        <item>UG Diploma- Diploma in Fashion Design</item>
+        <item>UG Diploma- Advance Diploma in Fashion Design and Technology</item>
+        </string-array>
+        <string-array name="h3_items">
+            <item>Bachelor of Business Administration (BBA)</item>
+        <item>Bachelor of Computer Application (BCA)</item>
+        <item>Bachelor of Education (B.Ed)</item>
+        </string-array>
+        <string-array name="h4_items">
+            <item>CBSE</item>
+        <item>IB/Cambridge</item>
+        </string-array>
+        <string-array name="h5_items">
+            <item>PGDM- Human Rescource Management"</item>
+            <item>PGDM- Finance Management</item>
+        <item>PGDM- Operations Management</item>
+        </string-array>
+        <string-array name="h6_items">
+            <item>MBA</item>
+        <item>PH.D</item>
+        </string-array>
+        <string-array name="h7_items">
+            <item>H2O: a 25-meter Olympic size swimming pool with changing room facility and water polo</item>
+        <item>400-meter running track and field events of International standards</item>
+        <item>State-of-The-Art Multi Gymnasium</item>
+        <item>Mini Golf Course</item>
+        <item>Judo, Karate and Marshal Arts</item>
+        <item>Training</item>
+        <item>Cricket and Football field of International Standards</item>
+        <item>Badminton, Table Tennis, Billiards, Snooker and other Indoor Sports</item>
+        <item>Squash, Volleyball, Basketball, Tennis Court of International Standards</item>
+        <item>Meditation and Yoga Centre</item>
+        <item>Aerobic Center</item>
+        </string-array>
+    <string-array name="h8_items">
+        <item>Shaurya- Kids Hostel</item>
+        <item>Sukh Ville- Staff Accommodation</item>
+        <item>Ananda- Boys Hostel</item>
+        <item>Suvarna- Girls Hostel</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>Select the course</item>
+        <item>Diploma in Computer Science and Engineering</item>
+        <item>Diploma in Mechanical Engineering</item>
+        <item>B.Tech in Computer Science and Engineering</item>
+        <item>B.Tech in Information Technology </item>
+        <item>B.Tech in Electronics and Communication Engineering</item>
+        <item>B.Tech in Electronics and Instrumentation</item>
+        <item>B.Tech in Electrical and Electronics Engineering</item>
+        <item>B.Tech in Mechanical Engineering</item>
+        <item>B.Tech in Civil Engineering</item>
+        <item>M.Tech in Computer Science and Engineering</item>
+        <item>M.Tech in Mechanical Engineering</item>
+        <item>M.Tech in Electrical and Electronics Engineering</item>
+        <item>Masters of Business Administration (MBA)</item>
+        <item>Masters of Computer Application (MCA)</item>
+        <item>Bachelor of Fine Arts</item>
+        <item>Diploma in Arts</item>
+        <item>Bachelor of Design</item>
+        <item>UG diploma in Fashion Design</item>
+        <item>UG advance diploma in Fashion Design and Technology</item>
+        <item>Bachelor of Business Administration (BBA)</item>
+        <item>Bachelor of Education (B.Ed)</item>
+        <item>Global School - CBSE</item>
+        <item>Global School- Cambridge/IB</item>
+        <item>PGDM- Human Resource Management</item>
+        <item>PGDM- Finance Management</item>
+        <item>PGDM- Operations Management</item>
+
+
+
+    </string-array>
+    <string name="spinner_title">Select Course</string>
+    <string name="Map">Vidya Knowledge Park, Baghpat Road, Meerut, (Delhi-NCR), India.</string>
+    <string name="mail">admissions@vidya.edu.in</string>
+
+
+</resources>
